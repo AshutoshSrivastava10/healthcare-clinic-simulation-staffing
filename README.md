@@ -41,6 +41,9 @@ Key modeling elements include:
 - 1,000 simulation replications per scenario
 - confidence interval estimates for average waiting times
 
+### Patient Flow Structure
+![Patient Flow Structure](Patient_Flow.png)
+
 ### Input Modeling
 
 The main model uses the following service-time assumptions:
@@ -78,6 +81,9 @@ For **225 patients/day** with **12% trauma**, the recommended staffing policy wa
 
 ### Additional Insight
 At the same patient load, moving from **8% trauma to 12% trauma** primarily increased staffing need at the **Trauma station**, while other station staffing stayed the same.
+
+### Results Snapshot
+![Impact of Patient Load and Trauma on Staffing and Waiting Time](Results.png)
 
 The analysis also explored the trade-off between service quality and staffing cost. For example, in the heaviest-load case, reducing Sign-In staffing could still keep waiting time relatively low, but it would no longer meet the desired “very fast” experience. Reducing Examination staffing had a much larger impact on waiting time.
 
